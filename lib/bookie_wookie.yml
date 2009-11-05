@@ -1,0 +1,20 @@
+facebook:
+  title: Facebook
+  url: http://www.facebook.com/share.php?u=
+  image: /stylesheets/images/facebook.gif
+stumbleupon:
+  title: Stumbleupon
+  url: http://www.stumbleupon.com/submit?url=
+  image: /stylesheets/images/stumbleit.gif
+twitter:
+  title: Twitter
+  url: http://twitter.com/home?status=
+  image: /stylesheets/images/twitter.png
+digg:
+  title: Digg
+  url: http://digg.com/submit?url=
+  image: /stylesheets/images/digg.png
+reddit:
+  title: Reddit
+  url: http://www.reddit.com/submit?url=
+  image: /stylesheets/images/reddit.gif
