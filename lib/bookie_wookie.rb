@@ -7,15 +7,18 @@ module BookieWookie
     yml = YAML.load_file "#{RAILS_ROOT}/config/bookie_wookie.yml"
     items = []
  
-    yml.each_key { |key|
+    yml.each_key do |key|
       item        = BookieItem.new
       item.title = yml[key]['title']
       item.url = yml[key]['url']
       item.image = yml[key]['image']
       
-      items << item }
+      items << item
+    end
     
-    items.sort_by { |item| item.title }
+    items.sort_by do |item| 
+      item.title
+    end
   end
 
 end
