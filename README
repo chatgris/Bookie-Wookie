@@ -1,13 +1,16 @@
 BookieWookie
 ============
 
-Introduction goes here.
+Share links plugin for rails.
 
 
-Example
-=======
+Installation :
 
-Example goes here.
+script/plugin install git://github.com/chatgris/Bookie-Wookie.git
+
+
+First, edit config/bookie_wookie.yml to fit your need, then, in your view, call render_bookie(url).
+
 
 
 Copyright (c) 2009 [Julien Boyer], released under the MIT license
